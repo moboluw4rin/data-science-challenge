@@ -2,9 +2,7 @@
 
 ## Overview
 
-This coursework is a data science challenge that addresses a supervised regression problem. 
-
-The objective is to train a model that predicts the target variable 'outcome' using the remaining features in the diamond dataset.
+This coursework is a data science challenge that addresses a supervised regression problem. The objective is to train a model that predicts the target variable 'outcome' using the remaining features in the diamond dataset.
 
 ## Model selection
 I've selected the following 5 algorithms and compared them directly:
@@ -23,7 +21,7 @@ cw1/
 ├── README.md
 ├── requirements.txt
 ├── src/
-│   └── train_and_predict.py
+│   └── cw1_script.py
 ├── CW1_train.csv
 ├── CW1_test.csv
 └── CW1_test_predictions.csv   (generated after running)
@@ -40,7 +38,7 @@ cw1/
 2.  Run training and prediction
 
 ```
-python src/train_and_predict.py
+python src/cw1_script.py
 ```
 
 3. Output
